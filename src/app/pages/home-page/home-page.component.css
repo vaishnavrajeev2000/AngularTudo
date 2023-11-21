@@ -1,0 +1,19 @@
+.todo{
+    background-color: yellow;
+    height: 100vh;
+}
+.box{
+    width:50%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: rgba(red, green, blue, alpha);
+}
+.compl{
+    text-decoration: line-through;
+    color:red
+}
+input[type=checkbox]:checked + p.strikethrough{
+    text-decoration: line-through;
+    color:red
+}
